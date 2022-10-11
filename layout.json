@@ -1,0 +1,107 @@
+{
+  "layout": {
+    "direction": "row",
+    "first": "3D Panel!2ccsjwx",
+    "second": {
+      "direction": "column",
+      "second": "RosOut!1j5405l",
+      "first": "Publish!3f37hcj",
+      "splitPercentage": 64.8
+    },
+    "splitPercentage": 47.447916666666664
+  },
+  "savedProps": {
+    "3D Panel!2ccsjwx": {
+      "checkedKeys": [
+        "name:Topics",
+        "t:/velodyne_points",
+        "t:/global_path/paths",
+        "t:/global_path/viz",
+        "t:/belief_map_array",
+        "t:/belief_map",
+        "ns:/tf:world",
+        "ns:/tf:local_enu",
+        "t:/global_path/final_path_array",
+        "t:/global_path/nodes_array",
+        "t:/global_path/paths_array",
+        "t:/global_path/tree_array",
+        "t:/global_path/final_path_frustums_array",
+        "t:/global_path/nodes",
+        "t:/tf_static",
+        "t:/global_path/final_path",
+        "t:/search_belief",
+        "t:/search_belief_array",
+        "t:/global_path/sampled_points_array",
+        "t:/particle_filters_visualizer",
+        "t:/global_path/arrows",
+        "t:/ship_simulator/agent_pose",
+        "ns:/metadata:height",
+        "t:/tf",
+        "t:/global_path/tree",
+        "t:/global_path/final_path_ours_array",
+        "t:/global_path/final_path_benchmark",
+        "t:/global_path/final_path_benchmark_array",
+        "t:/global_path/final_path_ours"
+      ],
+      "expandedKeys": [],
+      "followTf": "local_enu",
+      "cameraState": {
+        "targetOffset": [
+          2648.6053111963633,
+          2616.860609153942,
+          0
+        ],
+        "distance": 7591.398836306155,
+        "perspective": false,
+        "phi": 0.10601840354916092,
+        "thetaOffset": -0.005436155453187034,
+        "fovy": 0.7853981633974483,
+        "near": 0.01,
+        "far": 5000
+      },
+      "modifiedNamespaceTopics": [
+        "/tf",
+        "/metadata"
+      ],
+      "pinTopics": true,
+      "settingsByKey": {
+        "t:/velodyne_points": {
+          "colorMode": {
+            "mode": "rainbow",
+            "colorField": "ring"
+          }
+        }
+      },
+      "autoSyncCameraState": false,
+      "autoTextBackgroundColor": true,
+      "followOrientation": false
+    },
+    "Publish!3f37hcj": {
+      "topicName": "/planner/plan_request",
+      "datatype": "planner_map_interfaces/PlanningRequest",
+      "buttonText": "Publish",
+      "buttonTooltip": "",
+      "buttonColor": "#00A871",
+      "advancedView": true,
+      "value": "{\n  \"header\": {\n    \"seq\": 0,\n    \"stamp\": {\n      \"sec\": 0,\n      \"nsec\": 0\n    },\n    \"frame_id\": \"\"\n  },\n  \"start_pose\": {\n    \"position\": {\n      \"x\": 0,\n      \"y\": 0,\n      \"z\": 0\n    },\n    \"orientation\": {\n      \"x\": 0,\n      \"y\": 0,\n      \"z\": 0,\n      \"w\": 1\n    }\n  },\n  \"max_planning_time\": 10,\n  \"budget\": 5000,\n  \"counter_detection_range\": 0,\n  \"target_prior\": [\n    {\n      \"header\": {\n        \"seq\": 0,\n        \"stamp\": {\n          \"sec\": 0,\n          \"nsec\": 0\n        },\n        \"frame_id\": \"\"\n      },\n      \"pose\": {\n        \"position\": {\n          \"x\": 1000,\n          \"y\": 1000,\n          \"z\": 0\n        },\n        \"orientation\": {\n          \"x\": 0,\n          \"y\": 0,\n          \"z\": 0,\n          \"w\": 0\n        }\n      },\n      \"std_dev\": 3,\n      \"confidence\": 0.5\n    }\n  ]\n}"
+    },
+    "RosOut!1j5405l": {
+      "searchTerms": [],
+      "minLogLevel": 1,
+      "topicToRender": "/rosout"
+    }
+  },
+  "globalVariables": {
+    "globalVariable": 7,
+    "pitch": 0.5
+  },
+  "userNodes": {},
+  "linkedGlobalVariables": [],
+  "playbackConfig": {
+    "speed": 0.8,
+    "messageOrder": "receiveTime"
+  },
+  "version": 19,
+  "isFromUrl": false,
+  "skipSettingLocalStorage": true
+}
